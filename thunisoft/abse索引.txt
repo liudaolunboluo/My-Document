@@ -1,0 +1,14 @@
+Abase索引：
+	B-Tree：postgres里的默认索引方式。B-Tree的中文名字是二叉平衡树，每个叶子结点的深度都是一样的，特点是允许在O(logn)的时间内对所存储的内容进行搜索、顺序访问、插入及删除。B-Tree索引对于唯一值的索引来说是相当之理想的（比如id序号这类数据），它存储的是一对对的键值和指针，指针指向被索引数据所在的heap上的位置。
+
+	BRIN (Block-Range Index)：BRIN对于含有多个列的索引是比较合适的选择
+	
+	GIN (Generalized Inverted Index)：尤其适用于有很多key或value的数据的索引，比如说文档、JSON、整型数组等等。
+尤其适用于重复数据很多的场景，这点和B-Tree正好相反。支持一条索引里存在多个key。而B-Tree每条索引里只能有一个key。比如新插入一条数据“foo bar”，GIN会拆分出两个key：“foo” 和 “bar”。GIN索引内部数据结构整体上类似于B-Tree。不同的是，叶子结点上存储的不是一个TID，而是很多TID的集合
+	
+	GIST (Generalized Search Tree)：GIST的数据结构仍然是树，但不再是B-Tree了。
+	支持地理坐标、range类型（比如ip范围）、hstore（key/value对）、整型数组、pg_trgm。
+	GIST的用途：GIS (geographic information system)寻找bounding box的顶点；找到最近的n个邻居；全文检索；整型数组
+
+	
+	SP-GIST：虽然和GIST名字相似，但却是完全不同的索引类型，不是平衡树，各个叶子节点的深度可以不同。
