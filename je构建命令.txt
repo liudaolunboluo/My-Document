@@ -1,0 +1,17 @@
+cd ./40_源码/com-thunisoft-jxjs
+mvn clean dependency:copy-dependencies -DincludeScope=compile -U
+mvn package
+
+#在docker文件夹下建立存放项目包的文件夹
+mkdir -p ${WORKSPACE}/40_源码/com-thunisoft-jxjs/docker/war
+
+#将maven打包好的包拷到之前建立的目录下
+cp ${WORKSPACE}/40_源码/com-thunisoft-jxjs/target/jxjs-3.1.war  ${WORKSPACE}/40_源码/com-thunisoft-jxjs/docker/war/jxjs-3.1.war
+
+#使用docker目录下的Dockerfile创建镜像
+docker build   --no-cache --force-rm  -t registry.thunisoft.com:5000/jxjs/jxjs:latest ${WORKSPACE}/40_源码/com-thunisoft-jxjs/docker
+
+#上传本地镜像到镜像仓库中
+docker push registry.thunisoft.com:5000/jxjs/jxjs:latest
+
+

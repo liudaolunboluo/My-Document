@@ -1,0 +1,10 @@
+spring中常用的设计模式达到九种
+简单工厂
+工厂方法
+单例模式
+适配器（Adapter）
+包装器（Decorator）
+代理（Proxy）
+观察者（Observer）
+策略（Strategy）
+模板方法（Template Method）
