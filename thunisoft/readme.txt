@@ -1,13 +1,3 @@
-Ã¿¸ö°¸¼þÀàÐÍ¶¼¶ÔÓ¦Ò»¸öXXXAjGroupQueryParamVo¡¢XXXXAjGroupQueryResultVoºÍXXXXAjGroupQueryContext£¬XXXXÎª°¸¼þ¼ò³Æ£¬±ÈÈçÃñÊÂÎªmsaj
+åŒ—äº¬åŽå®‡ä¿¡æ¯æŠ€æœ¯
 
-XXXAjGroupQueryParamVo£ºÊÇ¸ÃÀàÐÍ°¸¼þ²éÑ¯µÄ²éÑ¯²ÎÊý£¬Ä¬ÈÏ¼Ì³ÐÁËFyAjGroupQueryParamVo£¬FyAjGroupQueryParamVoÀïÖ»ÓÐ×î»ù´¡µÄ°¸¼þ²éÑ¯×Ö¶Î£¬Èç¹ûÄãÒª¶Ô¸ÃÀàÐÍ°¸¼þµÄ²éÑ¯²ÎÊý½øÐÐÀ©³äÇëÔÚ±¾ÀàÐÍ°¸¼þµÄ²éÑ¯²ÎÊýÖÐÐÂÔö¼´¿É£¬È»ºó±ðÍüÁËÔÚfenixµÄxmlÖÐÐÂÔö¸Ã×Ö¶Î²éÑ¯µÄsqlÆ¬¶Î¡£
-
-XXXXAjGroupQueryResultVo£ºÊÇ¸ÃÀàÐÍ°¸¼þ²éÑ¯µÄ·µ»ØÖµ£¬¼Ì³ÐÁËAbstractAjGroupQueryResultVO£¬ÀïÃæ°üº¬ÁË°¸¼þÀàÐÍÖ÷±íºÍÒ»Ð©×Ó±í£¬Ö÷±íµÄ·ºÐÍºÍÒ»Ð©¹«ÓÃµÄ×Ó±í±ÈÈçËßËÏ²ÎÓëÈË¶¼ÔÚ¸¸ÀàÀï£¬Èç¹ûÒªÐÂÔöÖ»ÓÐ¸Ã°¸¼þÌØÓÐµÄ×Ó±íÇëÔÚ×ÓÀàÖÐÀ©³ä
-
-XXXXAjGroupQueryContext£ºXXXXAjGroupQueryContextÊÇÔÚÖ´ÐÐ°¸¼þ²éÑ¯ÔðÈÎÁ´µÄÉÏÏÂÎÄ¶ÔÏó£¬¼Ì³ÐÁËFyajGroupQueryContext£¬ÀïÃæ°üº¬ÁË°¸¼þ±àºÅList¡¢ÒµÎñÀàÐÍ¡¢ÊäÈë²ÎÊý·ºÐÍºÍÊä³ö·ºÐÍ¡£
-
-À©Õ¹£º 
-
-1¡¢Èç¹ûÄãÒª¶ÔÄ³¸öÀàÐÍ°¸¼þÐÂÔöÒ»¸ö×Ó±í²éÑ¯£¬ÇëÔÚXXXXAjGroupQueryResultVoÀï¼ÓÈëÕâ¸ö×Ó±í£¬È»ºóÐÂ½¨Ò»¸öcommand£¬Õâ¸öcommandÔÚspringÀïµÄbeannameÒªÊÇÕâ¸ö±íµÄ±íÃû¡£
-
-2.Èç¹ûÄãÒªÐÂÔöÒ»¸öÖ÷±íµÄ·µ»Ø²éÑ¯×Ö¶ÎÇëÔÚÃ¿¸öÖ÷±íµÄJCDTOÀïÐÂÔö¼´¿É¡£
+2016.11.3â€”â€”2020.07.28
